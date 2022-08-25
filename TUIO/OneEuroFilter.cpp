@@ -19,6 +19,7 @@
 
 #include "OneEuroFilter.h"
 #include <iostream>
+#include <math.h>
 
 using namespace TUIO;
 

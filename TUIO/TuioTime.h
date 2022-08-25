@@ -21,13 +21,6 @@
 
 #include "LibExport.h"
 
-#ifdef WIN32
-#include <windows.h>
-#include <ctime>
-#else
-#include <pthread.h>
-#include <sys/time.h>
-#endif
 
 #define MSEC_SECOND 1000
 #define USEC_SECOND 1000000

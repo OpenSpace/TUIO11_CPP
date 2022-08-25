@@ -18,6 +18,8 @@
 
 #include "TuioPoint.h"
 
+#include <math.h>
+
 using namespace TUIO;
 
 TuioPoint::TuioPoint (float xp, float yp) {

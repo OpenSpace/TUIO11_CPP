@@ -18,6 +18,7 @@
 
 #include "TuioServer.h"
 #include "UdpSender.h"
+#include <math.h>
 
 using namespace TUIO;
 using namespace osc;

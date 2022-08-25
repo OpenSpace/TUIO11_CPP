@@ -22,7 +22,9 @@
 #include "TuioListener.h"
 
 #ifdef WIN32
-#include <windows.h>
+#define WIN32_LEAN_AND_MEAN
+#define NOMINMAX
+#include <Windows.h>
 #else
 #include <pthread.h>
 #endif
